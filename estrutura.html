@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo - estrutura dos meus projetos ReactJs/NodeJs</title>
+</head>
+<body>
+    <h2>Estrutura de diretorios</h2>
+    <hr>
+    <h3>App folder: [nome]</h3>
+    <ul>
+        <li>node_modules</li>
+        <li>public</li>
+        <ul>
+            <li>assets</li>
+            <ul>
+                <li>images</li>
+                <li>icons</li>
+            </ul>
+            <li>css</li>
+            <ul>
+                <li>style.css</li>
+            </ul>
+            <li>js</li>
+            <ul>
+                <li>scripts.js</li>
+            </ul>
+            <li>favicon.ico</li>
+            <li>index.html</li>
+            <li>manifest.json</li>
+        </ul>
+        <li>src</li>
+        <ul>
+            <li>components</li>
+            <ul>
+                <li>Assets</li>
+                <ul>
+                    <li>images</li>
+                    <ul>
+                        <li>logos</li>
+                        <li>other_dir</li>
+                    </ul>
+                </ul>
+                <li>Common</li>
+                <ul>
+                    <li>Header.js</li>
+                    <li>Client.js</li>
+                    <li>ClientItem.js</li>
+                    <li>Team.js</li>
+                    <li>TeamItem.js</li>
+                    <li>Portfolio.js</li>
+                    <li>PortfolioItem.js</li>
+                    <li>About.js</li>
+                    <li>Services.js</li>
+                    <li>SingleService.js</li>
+                </ul>
+                <li>Pages</li>
+                <ul>
+                    <li>About.js</li>
+                    <li>Contact.js</li>
+                    <li>Home.js</li>
+                </ul>
+                <li>PageWrapper.js</li>
+            </ul>
+            <li>App.js</li>
+            <li>index.js</li>
+        </ul>
+        <li>.gitignore</li>
+        <li>package-lock.json</li>
+        <li>package.json</li>
+        <li>README.md</li>
+    </ul>
+    <hr>
+    <h2>Instalacao ReactJs</h2>
+    <p>$ create-react-app websitefabiano</p>
+    <p>e para testar a instalacao:</p>
+    <p>$ npm start</p>
+    <p>Ajustar App.js</p>
+    <h2>Escolher tema Bootstrap para incorporar ao React</h2>
+    <p>Tema escolhido: startbootstrap-resume-gh-pages.zip</p>
+    <p>Add folder to workspace</p>
+    <p>Realizar copias das estruturas de pastas</p>
+    <p>De bootstrap-theme para a estrutura React</p>
+    <p>assets, css e js para public</p>
+    <p>copiar links e scripts do index.html do bootstrap-theme para o index do public React</p>
+    <p>Colocar %PUBLIC_URL% no caminho dos links e scripts copiados</p>
+    <p>Ex: script src="%PUBLIC_URL%/js/scripts.js" </p>
+    <h2>Instalar o React Router</h2>
+    <p>$ npm install --save react-router-dom</p>
+    <h2>Criar o componente PageWrapper.js</h2>
+    <p>Criar pasta "components" conforme estrutura proposta nesse documento</p>
+    <p>Criar arquivo PageWrapper.js nessa pasta</p>
+    <p>Conteudo desse arquivo sera o nav(Navigation) do index.html do bootstrap-theme</p>
+    <p>Importar o Link de react-router-dom</p>
+    <p>Trocar "href" por "to" e "a" por "Link"</p>
+    <p>E no final do da classe colocar {this.props.children}, de onde virao os outros componentes com a nav em comum</p>
+    <h2>Configuracao do App.js</h2>
+    <p>Importar o PageWrapper</p>
+    <p>import PageWrapper from './components/PageWrapper'</p>
+    <p>E o BrowserRouter:</p>
+    <p>import {BrowserRouter as Router, Route} from 'react-router-dom'</p>
+    <p>Preparar o corpo da App:</p>
+    <p>Estrutura: Router-PageWrapper-Routes-PageWrapper-Router</p>
+    <p>Fazer as rotas do nav contido em PageWrapper</p>
+    <p>Ciar componente About em "components":</p>
+    <p>Em "Common" para a rolagem e em "Pages" para qdo se clicar</p>
+    <p>React way: criar o componente AboutItem em Common</p>
+</body>
+</html>
