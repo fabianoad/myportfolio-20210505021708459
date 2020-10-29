@@ -9,7 +9,11 @@ class ExperienceItem extends React.Component {
                         <div className="flex-grow-1">
                             <h3 className="mb-0">{this.props.role}</h3>
                             <div className="subheading mb-3">{this.props.company}</div>
-                            <p>{this.props.activity}</p>
+                            {
+                                this.props.activity.map(item => {
+                                    return <p>{item}</p>
+                                })
+                            }
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">{this.props.date}</span></div>
                     </div>

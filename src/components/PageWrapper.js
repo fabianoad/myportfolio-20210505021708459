@@ -20,6 +20,7 @@ class PageWrapper extends React.Component {
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/skills">Skills</Link></li>
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/interest">Interests</Link></li>
                     <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/awards">Awards</Link></li>
+                    <li className="nav-item"><Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link></li>
                 </ul>
             </div>
         </nav>

@@ -9,7 +9,6 @@ class EducationItem extends React.Component {
                             <h3 className="mb-0">{this.props.college}</h3>
                             <div className="subheading mb-3">{this.props.degree}</div>
                             <div>{this.props.course}</div>
-                            <p>{this.props.gpa}</p>
                         </div>
                         <div className="flex-shrink-0"><span className="text-primary">{this.props.date}</span></div>
                     </div>

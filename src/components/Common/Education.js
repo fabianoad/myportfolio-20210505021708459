@@ -3,16 +3,21 @@ import EducationItem from './EducationItem'
 
 
 const item = [
-    {college: "University of Colorado Boulder", 
-        degree: "Bachelor of Science", 
-        course: "Computer Science - Web Development Track", 
-        gpa: "GPA: 3.23", 
-        date: "August 2006 - May 2010"},
-    {college: "James Buchanan High School", 
-    degree: "Technology Magnet Program", 
-    course: "", 
+    {college: "Langara College", 
+        degree: "Certificate", 
+        course: "Computer Science - Internet and Web Technology", 
+        gpa: "GPA: 3.83", 
+        date: "January 2019 - April 2020"},
+    {college: "College DeVry - Ruy Barbosa Campus", 
+    degree: "Post-graduate Diploma", 
+    course: "Computer Science - Computer Networks and Security", 
     gpa: "GPA: 3.56", 
-    date: "August 2002 - May 2006"}
+    date: "April 2005 - June 2007"},
+    {college: "UCSAL", 
+    degree: "Bachelor", 
+    course: "Engineering - Civil Engineering", 
+    gpa: "GPA: 3.83", 
+    date: "August 1993 - August 1998"},
 ]
 
 class Education extends React.Component {
