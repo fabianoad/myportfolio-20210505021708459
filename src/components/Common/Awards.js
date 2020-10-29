@@ -15,10 +15,10 @@ class Awards extends React.Component {
     render() {
         return <React.Fragment>
 
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards & Certifications</h2>
-                    <ul class="fa-ul mb-0">
+            <section className="resume-section" id="awards">
+                <div className="resume-section-content">
+                    <h2 className="mb-5">Awards & Certifications</h2>
+                    <ul className="fa-ul mb-0">
                         
                         {awards.map((item,i) => {
                             return  <li key={i}><AwardsItem award={item} /></li>

@@ -14,7 +14,8 @@ class AboutItem extends React.Component {
                         {this.props.address}
                         <Link to="mailto:name@email.com">&nbsp;|&nbsp;{this.props.email}</Link>
                     </div>
-                    <p className="lead mb-5">{this.props.aboutMe}</p>
+                    <p className="mb-5 h4">{this.props.role}</p>
+                    <p className="lead mb-5 text-justify">{this.props.aboutMe}</p>
                     <div className="social-icons">
                         <Link className="social-icon" to="#"><i className={`fab ${this.props.iconLinkedin}`}></i></Link>
                         <Link className="social-icon" to="#"><i className={`fab ${this.props.iconGithub}`}></i></Link>

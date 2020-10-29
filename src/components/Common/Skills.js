@@ -7,10 +7,17 @@ const icons = [
     "fa-gulp", "fa-grunt", "fa-npm"
 ]
 const skills = [
+    
+    
+    "Programming and Markup Languages: Javascript, Typescript, C#, Java, CSS, HTML",
+    "Front-End Frameworks: ReactJs, VueJs, LoopBackJs, Bootstrap, JQuery, Webpack",
     "Mobile-First, Responsive Design",
-    "Cross Browser Testing & Debugging",
-    "Cross Functional Teams",
-    "Agile Development & Scrum"
+    "Server-Side Frameworks: NodeJs, Express, PHP, ASP.NET Core 3.1",
+    "Databases: MongoDB, MySQL, and Oracle",
+    "Other: AWS (Cloud9), Git/GitHub, Gitlab, Jenkins, Ansible, and Docker",
+    "Agile Development & Scrum",
+    "Leadership experience",
+    "Familiar with Red Hat and Debian Linux Systems"
 ]
 
 class Skills extends React.Component {
