@@ -11,6 +11,7 @@ import Skills from './components/Pages/SkillsPage'
 import Interest from './components/Pages/InterestPage'
 import Awards from './components/Pages/AwardsPage'
 import Contact from './components/Pages/Contact'
+import Idioms from './components/Pages/IdiomsPage'
 
 
 import './App.css';
@@ -42,6 +43,10 @@ class App extends React.Component {
                   <Route
                     path="/skills"
                     component={Skills}
+                  />
+                  <Route
+                  path="/idioms"
+                  component={Idioms}
                   />
                    <Route
                     path="/interest"
