@@ -4,7 +4,7 @@ import SkillItem from './SkillItem'
 const icons = [
     "fa-html5", "fa-css3-alt", "fa-js-square", "fa-angular",
     "fa-react", "fa-node-js", "fa-sass", "fa-less", "fa-wordpress",
-    "fa-gulp", "fa-grunt", "fa-npm"
+    "fa-gulp", "fa-grunt", "fa-npm", "fa-linux"
 ]
 const skills = [
     

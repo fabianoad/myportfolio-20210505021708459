@@ -2,13 +2,13 @@ import React from 'react'
 import AwardsItem from './AwardsItem'
 
 const awards = [
-    "Google Analytics Certified Developer",
-    "Mobile Web Specialist - Google Certification",
-    "University of Colorado Boulder - Emerging Tech Competition 2009",
-    "University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category",
-    "University of Colorado Boulder - Emerging Tech Competition 2008",
-    "James Buchanan High School - Hackathon 2006",
-    "James Buchanan High School - Hackathon 2005"             
+    "LPIC-2",
+    "LPIC-1",
+    "aaaa",
+    "aaaa",
+    "aaaa",
+    "aaa",
+    "aaaa"             
 ]
 
 class Awards extends React.Component {

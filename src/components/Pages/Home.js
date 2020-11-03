@@ -8,7 +8,7 @@ import Experience from '../Common/Experience'
 import Skills from '../Common/Skills'
 import Interest from '../Common/Interest'
 import Awards from '../Common/Awards'
-
+import Idioms from '../Common/Idioms'
 
 
 class Home extends React.Component {
@@ -20,6 +20,8 @@ class Home extends React.Component {
                 <Experience />
                 <hr className="m-0" />
                 <Education />
+                <hr className="m-0" />
+                <Idioms />
                 <hr className="m-0" />
                 <Skills />
                 <hr className="m-0" />
