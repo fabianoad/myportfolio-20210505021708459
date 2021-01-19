@@ -4,13 +4,13 @@ import SkillItem from './SkillItem'
 const icons = [
     "fa-html5", "fa-css3-alt", "fa-js-square", "fa-angular",
     "fa-react", "fa-node-js", "fa-sass", "fa-less", "fa-wordpress",
-    "fa-gulp", "fa-grunt", "fa-npm", "fa-linux"
+    "fa-gulp", "fa-grunt", "fa-npm", "fa-linux", "fa-java",
 ]
 const skills = [
     
     
     "Programming and Markup Languages: Javascript, Typescript, C#, Java, CSS, HTML",
-    "Front-End Frameworks: ReactJs, VueJs, LoopBackJs, Bootstrap, JQuery, Webpack",
+    "Frameworks: ReactJs, VueJs, LoopBackJs, Bootstrap, JQuery, Webpack, Spring MVC, Spring Boot",
     "Mobile-First, Responsive Design",
     "Server-Side Frameworks: NodeJs, Express, PHP, ASP.NET Core 3.1",
     "Databases: MongoDB, MySQL, and Oracle",
